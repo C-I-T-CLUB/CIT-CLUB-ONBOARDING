@@ -21,7 +21,7 @@ body{
     background-size: cover;
     height: 90vh; */
     padding: 0 2% 5% 1%;
-    margin-bottom: 8em;
+    margin-bottom: 0;
 }
 /* styling the  navigations divisions */
 .row_nav{
@@ -41,8 +41,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: .1em;
-    justify-content: center;
+    
+    justify-content: space-evenly;
     align-items: center;
     /* width: 100%; */
 }
@@ -50,18 +50,17 @@ body{
 .style_list{
     display: block;
     list-style: none;
-    margin-right: 5em;
+    margin: 0;
     color: #343434;
     font-size: 2em;
-    font-weight: 800;
+    font-weight: 600;
     font-family: inherit;
     text-transform: capitalize;
     text-decoration: none;
 }
 .postion_arrow{
     display: inline-block;
-    position: absolute;
-    top: 24%;
+    
 }
 /* .style_list:last-child{
     margin-right: 0;
@@ -104,14 +103,17 @@ body{
 .display_drop a{
     text-decoration: none;
     color: #343434;
+    display: flex;
+    place-items: center;
 }
 .display_drop:hover ul{
     display: block;
     position: absolute;
-    top: 36%;
+    top: 40%;
     background: #34343423;
     height: 50vh;
     padding: 2% 2% 0;
+    z-index: 10;
 }
 .drop_down a{
     text-decoration: none;
@@ -120,6 +122,7 @@ body{
     display: block;
     text-transform: capitalize;
     margin-bottom: 2em;
+    transition: all 2s ease-in-out;
 }
 /* login btn */
 ul .btn_login_white{
