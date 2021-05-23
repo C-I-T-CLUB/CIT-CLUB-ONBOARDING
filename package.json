@@ -1,0 +1,33 @@
+{
+  "name": "cit-club-api",
+  "version": "1.0.0",
+  "description": "This is the backend api for cit club web and mobile interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-I-T-CLUB/CIT-CLUB-ONBOARDING.git"
+  },
+  "keywords": [
+    "cit",
+    "club",
+    "api"
+  ],
+  "author": "CIT-CLUB-TEAM ~paullaster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C-I-T-CLUB/CIT-CLUB-ONBOARDING/issues"
+  },
+  "homepage": "https://github.com/C-I-T-CLUB/CIT-CLUB-ONBOARDING#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
